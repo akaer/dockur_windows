@@ -1,8 +1,9 @@
 {
-  "name": "Windows 11 Pro",
+  "name": "Windows Server 2025",
   "service": "windows",
   "containerEnv": {
-    "VERSION": "11"
+    "VERSION": "2025",
+    "EDITION": "core"
   },
   "forwardPorts": [8006],
   "portsAttributes": {
