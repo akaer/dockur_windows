@@ -3,7 +3,9 @@
   "service": "windows",
   "containerEnv": {
     "VERSION": "2025",
-    "EDITION": "core"
+    "EDITION": "core",
+    "REGION": "en-US",
+    "KEYBOARD": "en-US"
   },
   "forwardPorts": [8006],
   "portsAttributes": {
