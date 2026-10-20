@@ -8,6 +8,8 @@ services:
       CPU_CORES: "max"
       DISK_MINIMUM: "1G"
       EDITION: "core"
+      REGION: "en-US"
+      KEYBOARD: "en-US"
     devices:
       - /dev/kvm
       - /dev/net/tun
