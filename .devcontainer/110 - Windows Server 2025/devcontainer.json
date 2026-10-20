@@ -2,7 +2,8 @@
   "name": "Windows Server 2025",
   "service": "windows",
   "containerEnv": {
-    "VERSION": "2025"
+    "VERSION": "2025",
+    "EDITION": "core"
   },
   "forwardPorts": [8006],
   "portsAttributes": {
